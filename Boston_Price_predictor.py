@@ -201,7 +201,7 @@ print_scores(rmse_scores_random)
 #NOTE: Seeing mean of both also shows that RandomForestRegressor is better
 
 #TO SAVE MODEL:
-dump(model3, "Dragon.joblib")
+dump(model3, "Housing.joblib")
 
 #NOW TO USE TEST DATA:
 housing_test_prepared=my_pipeline.transform(housing_test)
